@@ -1,0 +1,1362 @@
+*{
+    padding: 0;
+    margin: 0;
+color: #000;
+}
+html{
+    scroll-behavior: smooth;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+.loader{
+    height: 100vh;
+    width: 100%;
+    position:fixed;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    flex-direction: column;
+}
+.loader #load{
+    color: white;
+    text-transform: uppercase;
+    font-family: kajiro;
+    font-size: 5vw;
+    
+    
+}
+
+.whatsapp{
+    position: fixed;
+    z-index: 999999;
+    left: 85%;
+    top: 80%;
+    height: 60%;
+    width: 70%;
+    
+    display: flex;
+
+}
+.whatsapp img:hover{
+    scale: 2;
+}
+.whatsapp img{
+    height: 10%;
+    width:100%;
+    display: none;
+    z-index: 999999;
+    transition: 3s all ease;
+    object-fit: contain;
+    object-position: center;
+    transition: .5s ease ;
+}
+.newcolor{
+    background-color: #000;
+}
+.page{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+   
+}
+.dark{
+    right: 2%;
+}
+.light{
+color: white;
+}
+.mode{
+    height: 30px;
+    width: 60px;
+    right: 5%;
+    border-radius: 15px;
+    position: relative;
+
+   background-color: azure;
+}
+.mode span{
+    height: 100%;
+    width: 30px;
+    border-radius: 50%;
+    top: 2%;
+    cursor: pointer;
+    
+   position: absolute;
+    background-color: grey;
+}
+.nav{
+ height: 100px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    color: aliceblue;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  20px 20px 60px #5a5a5a, inset
+                  ;
+    padding-left: 12vw;
+    z-index: 999;
+}
+.nav h3{
+  font-family: Dancing script;
+   text-transform: uppercase;
+   font-size: 1.3vw;
+   color: #000;
+   font-weight: 800;
+
+   
+}
+.nav h3 span{
+  position: absolute;
+  top: 60%;
+  
+}
+
+
+.nav .ul-list{
+display: flex;
+width: 65%;
+
+justify-content: end;
+}
+.nav .ul-list ul{
+    display: flex;
+    align-items: center;
+}
+ul li{
+    margin-left: 3vw;
+    list-style: none;
+    font-size: 1.3vw;
+    cursor: pointer;
+    font-family: montserrat thin;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 800;
+   
+}.humburger{
+    display: none;
+}
+#bar{
+    height: 4px;
+    width: 30px;
+    margin-top: 5px;
+   
+  
+}
+
+ul #cntc{
+   
+    text-decoration: none;
+}
+li:hover{
+
+transition: all 2s ease ;
+    transform: translateY(7px);
+    
+}
+.page1{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.page1 #elem2 {
+display: flex;
+align-items: center;
+width: 100%;
+height: 100%;
+justify-content: center;
+background-color: #000;
+
+
+}
+#elem2 h1{
+    text-align: center;
+    font-size: 4.5vw;
+    font-weight: 900;
+    color: #ffffff;
+    margin-top: 250px;
+    font-family: Dancing script medium;
+}
+
+#elem2 span{
+    text-transform: uppercase;
+    font-family: montserrat regular;
+    font-size: 5vw;
+    -webkit-text-stroke: .5px  white;
+    color: transparent;
+}
+.image{
+    position: relative;
+    display: flex;
+    height: 70%;
+    align-items: flex-start;
+}
+.image img{
+    border-radius: 50%;
+    height: 30%;
+    width: 10vw;
+    position: absolute;
+    margin-left: 800px;
+}
+
+img{
+cursor: pointer;
+height: 80%;
+width: 5%;
+margin-right: 20px;
+border-radius: 50%;
+transition: all .2s ease ;
+
+}
+button{
+    padding: 6px;
+}
+.page3{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+   
+    justify-content: space-around;
+
+}
+
+ #head{
+    text-align: center;
+    font-size: 7vw;
+    letter-spacing: .6vw;
+    font-family: porlane slanted;
+    font-weight: 100;
+  text-transform: uppercase;
+  text-decoration: underline ;
+ 
+}
+#project{
+    text-align: center;
+    font-size: 7vw;
+    letter-spacing: .6vw;
+    font-family: porlane slanted;
+    font-weight: 100;
+  text-transform: uppercase;
+  text-decoration: underline ;
+ 
+}
+.project #anchor{
+    text-decoration: none;
+    margin-left: 4em;
+    font-size: 1.4vw;
+    cursor: pointer;
+    font-family: montserrat;
+    text-transform: uppercase;
+}
+ .project img:hover{
+    transition: all  1s ease-in;
+   scale: 1.1;
+    
+}
+.project  img{
+    height: 100%;
+    width: 100%;
+    border-radius: 1px;
+}
+.project a:hover{
+    color: green;
+    
+ 
+    transition: .3s ease;
+}
+.page3 .skill{
+    height: 65%;
+    width: 20%;
+    
+  
+
+}
+
+
+
+.skill img{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+   filter: drop-shadow(30px 20px 80px rgb(0, 0, 0));
+    border-radius: 1px;
+}
+.page4{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+}
+.page4 .project{
+    height: 40%;
+    width: 26%;
+    
+  margin-top: 2vw;
+  
+}
+.page5{
+    height: 50%;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    display: flex;
+    margin-top: 10vw;
+    justify-content: center;
+    align-items: center;
+  
+    
+}
+ul #anth,#projects,#skills,#home{
+    
+    list-style: none;
+    background: none;
+    border: none;
+    font-size: 1.3vw;
+    cursor: pointer;
+    font-family: montserrat thin;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 800;
+}
+ul a{
+    text-decoration: none;
+   
+}
+.page5 form{
+    height: 80%;
+    width: 25%;
+    z-index: 999;
+    top: -100%;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+     box-shadow:  20px 20px 60px #5a5a5a, inset;
+    transition: 1s ease all;
+   position: absolute;
+    
+}
+  form.newfrm{
+ 
+    top: 35%;
+    color: aliceblue;
+    
+    
+}
+form label{
+    font-size: 1.5vw;
+    margin-left: 1vw;
+    font-family: dancing script ;
+    font-weight: 900;
+    
+}
+form i{
+    background-color: green;
+   position: absolute;
+   right: 1%;
+   top: 1%;
+   color:#ffffff;
+   cursor: pointer;
+   padding: 6px 8px;
+}
+
+form input{
+    border-radius: 6px;
+    outline: none;
+    padding: 1vw 1vw;
+    border: none;
+    margin-top: 1vw;
+    width: 70%;
+    
+    margin-left: 2vw;
+}
+form #btn{
+   
+
+  width: 30%;
+    background-color: black;
+    color: #fff;
+    font-size: 1vw;
+    border-radius: 3px;
+    padding: .6vw;
+    cursor: pointer;
+    right: 40%;
+    bottom: 2%;
+    position: absolute;
+    font-family: montserrat regular;
+}
+
+::placeholder{
+    font-size: 1vw;
+    text-transform: uppercase;
+    font-family: montserrat;
+}
+footer{
+    height: 60%;
+    width: 100%;
+    background-color: #122620;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    margin-top: 5vw;
+    border: 3px solid #000000;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer .foot{
+    height: 70%;
+    width: 14%;
+  flex-wrap: wrap;
+   
+}
+
+.foot h1{
+    position: absolute;
+    bottom: 90%;
+    left: 17%;
+    font-size: 1.5vw;
+    color: #ffffff;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: Dancing script;
+}
+.foot h2{
+    position: absolute;
+    bottom: 90%;
+    left: 46%;
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    font-family: Dancing script;
+}
+.foot h3{
+    position: absolute;
+    bottom: 90%;
+    left: 75%;
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    font-family: Dancing script;
+}
+footer #image1{
+    position: absolute;
+    left: 1%;
+    height: 20%;
+    bottom: 75%;
+
+}
+footer i{
+    position: absolute;
+    left: 7%;
+    font-size: 1.7vw;
+    color: #fff;
+    height: 20%;
+    bottom: 68%;
+
+}
+
+.foot a{
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+.foot a:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+.foot p{
+    font-family: montserrat;
+    font-size: 1.1vw;
+    margin-top: 1.4vw;
+    color: #ffffff;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+.logo{
+    position: absolute;
+    bottom: 3%;
+    cursor: pointer;
+    left: 85%;
+    transition: 2s ease-in all;
+   
+}
+.logo #linkned{
+height: 2vw;
+width: 2vw;
+
+}
+.logo #twitter{
+height: 2vw;
+width: 2vw;
+}
+.logo #git{
+height: 2.1vw;
+width: 2.5vw;
+}
+.logo img:hover{
+    scale: 1.2;
+    background-color: #fff;
+
+}
+.elem a{
+    text-decoration: none;
+    font-size: 1.3vw;
+    position: absolute;
+    color: white;
+    cursor: pointer;
+   bottom: 5%;
+   text-transform: uppercase;
+   font-family: montserrat;
+   background-color: #212529;
+   transition: background-color .8s ease ;
+   padding: 1vw 3vw;
+   font-weight: 450;
+   border-radius: 20px;
+}
+.elem a:hover{
+    background-color: #fff;
+    color: black;
+}
+/* mob */
+@media (max-width:468px){
+
+    /* .whatsapp{
+        position: fixed;
+        z-index: 999999;
+        left: 70%;
+        top: 80%;
+        height: 50%;
+        width: 70%;
+        display: flex;
+    
+    }
+    .whatsapp img{
+        height: 10%;
+        width:100%;
+        z-index: 999999;
+        object-fit: contain;
+        object-position: center;
+        transition: .5s ease ;
+     
+    } */
+    .nav h3{
+        font-family: Dancing script;
+         text-transform: uppercase;
+         font-size: 2.8vw;
+         color: #000;
+         font-weight: 800;
+      
+         
+      }
+      .nav{
+        height: 100px;
+           width: 100%;
+           display: flex;
+           position: fixed;
+           align-items: center;
+        
+       }
+       .elem a{
+        text-decoration: none;
+        font-size: 4vw;
+        position: absolute;
+        color: white;
+        cursor: pointer;
+       bottom: 40%;
+       text-transform: uppercase;
+       font-family: montserrat;
+       background-color: rgb(56, 42, 42);
+       transition: background-color .8s ease ;
+       padding: 3vw 4vw;
+       font-weight: 450;
+       border-radius: 20px;
+    }
+
+       .nav .ul-list ul{
+        display: flex;
+        height: 70vh;
+        position: absolute;
+        width: 90%;
+        top: 100%;
+        left: 100%;
+        transition: all ease-in-out .5s ;
+        background: linear-gradient(145deg, #cacaca, #f0f0f0);
+        box-shadow:  20px 20px 60px #5a5a5a, inset
+                     -20px -20px 60px #ffffff;
+       
+        flex-direction: column;
+        
+    }
+    ul #anth,#projects,#skills,#home{
+    
+        margin-left: 3vw;
+        list-style: none;
+        font-size: 5.3vw;
+        cursor: pointer;
+        padding: 10px 0px;
+        text-align: center;
+        margin-top:60px;
+        font-family: montserrat thin;
+        text-transform: uppercase;
+        color: #000;
+        font-weight: 900;
+    }
+  
+    .nav ul.active{
+    left: 30%;
+    }
+   
+    .humburger{
+        display: block;
+        margin-right: 13vw;
+        text-align: center;
+    }
+    #bar{
+        height: 4px;
+        width: 25px;
+       
+        margin-top: 3.5px;
+        background-color: #5a5a5a;
+      
+    }
+    .image{
+        position: relative;
+        display: flex;
+        height: 70%;
+        
+    }
+    .image img{
+        border-radius: 50%;
+        height: 30%;
+        width: 35vw;
+        margin-top: 25vw;
+        margin-left: 110px;
+    }
+    img{
+        cursor: pointer;
+        height: 60%;
+        width: 14%;
+        }
+        #elem2 h1{
+            text-align: center;
+            font-size: 4.8vw;
+            font-weight: 900;
+            color: #ffffff;
+            margin-top: 120px;
+            font-family: Dancing script medium;
+        }
+        .page1 #elem2 {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            height: 80%;
+            justify-content: center;
+            background-color: #000;
+            
+            
+            }
+            .page3 .skill{
+                height: 35%;
+                width: 20%;
+            }
+            .skill img{
+                height: 100%;
+                width: 100%;
+                border-radius: 1px;
+            }
+            #head{
+                text-align: center;
+                font-size: 12vw;
+                font-family: Rubik BUbbles;
+                font-weight: 100;
+              text-transform: uppercase;
+              text-decoration: underline ;
+             
+            }
+            #project{
+              
+                text-align: center;
+                font-size: 9vw;
+                font-family: Rubik BUbbles;
+                font-weight: 100;
+              text-transform: uppercase;
+              text-decoration: underline ;
+             
+            }
+            .project #anchor{
+                text-decoration: none;
+                margin-left: .5em;
+                font-size: 4vw;
+                font-family: montserrat;
+                text-transform: uppercase;
+            }
+            .project  img{
+                height: 100%;
+                width: 100%;
+                border-radius: 1px;
+            }
+            .page4{
+                height: 50%;
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+               
+            }
+            .page4 .project{
+                height: 30%;
+                width: 30%;
+              margin-top: 8vw;
+              
+            }
+            .nav{
+                
+                   padding-left: 2.5vw;
+                   
+               }
+            .nav h3{
+                font-family: Dancing script;
+                 text-transform: uppercase;
+                 font-size: 5vw;
+                 color: #000;
+                 font-weight: 800;
+              
+                 
+              }
+              .page5 form{
+                height: 78%;
+                width: 65%;
+                z-index: 999;
+                
+                background: linear-gradient(145deg, #cacaca, #f0f0f0);
+                 box-shadow:  20px 20px 60px #5a5a5a, inset;
+                transition: 1s ease all;
+               position: absolute;
+                
+            }
+            form input{
+                border-radius: 6px;
+                outline: none;
+                padding: 2vw 7vw;
+                border: none;
+                margin-top: 8vw;
+                width: 70%;
+                
+                margin-left: 2vw;
+            }
+            form label{
+                font-size: 4.8vw;
+                margin-left: 1vw;
+                font-family: dancing script ;
+                font-weight: 900;
+                
+            }
+            form #btn{
+                width: 30%;
+            padding: 1.5vw 1vw;
+                margin-left: 16.5vw;
+                background-color: black;
+                color: #fff;
+                font-size: 2vw;
+                border-radius: 3px;
+           
+                cursor: pointer;
+                
+                font-family: montserrat regular;
+            }
+            footer{
+                height: 70%;
+                width: 100%;
+                background-color: #122620;
+                display: flex;
+                position: relative;
+                flex-wrap: wrap;
+                margin-top: 5vw;
+                border: 3px solid #000000;
+                flex-direction: column;
+                align-items: center;
+
+                
+            }
+            footer .foot{
+                height: 20%;
+                width: 30%;
+                margin-top: 15vw;
+              
+            
+            }
+            
+            .foot h1{
+                position: absolute;
+                bottom: 90%;
+                left: 32%;
+                font-size: 9vw;
+                color: #ffffff;
+                font-weight: 900;
+                text-transform: uppercase;
+                font-family: Dancing script;
+            }
+            .foot h2{
+                position: absolute;
+                bottom: 56%;
+                left: 34%;
+                color: #ffffff;
+                font-weight: 900;
+                font-size: 9vw;
+                text-transform: uppercase;
+                font-family: Dancing script;
+            }
+            .foot h3{
+                position: absolute;
+                bottom: 22%;
+                left: 34%;
+                color: #ffffff;
+                font-weight: 900;
+                font-size: 9vw;
+                text-transform: uppercase;
+                font-family: Dancing script;
+            }
+            footer #image1{
+                position: absolute;
+                left: 1%;
+                height: 10%;
+                bottom: 90%;
+            
+            }
+            .foot p{
+                font-family: montserrat;
+                font-size: 3.1vw;
+                
+                margin-top: 1.3vw;
+                color: #ffffff;
+                font-weight: 100;
+                text-transform: uppercase;
+            }
+            .logo{
+                position: absolute;
+                bottom: 5%;
+                cursor: pointer;
+                left: 63%;
+               
+                display: flex;
+                transition: 2s ease-in all;
+               
+            }
+            .logo #linkned{
+            height: 7vw;
+            width: 7vw;
+            border: 3px solid ;
+            }
+            .logo #twitter{
+                height: 7vw;
+            width: 7vw;
+            border: 3px solid ;
+            }
+            .logo #git{
+                height: 7vw;
+                width: 7vw;
+                border: 3px solid ;
+            }
+            footer i{
+                position: absolute;
+                left: 17%;
+                font-size: 3.7vw;
+                color: #fff;
+               
+                bottom: 76%;
+               
+            
+            }
+}
+/* big screen size mob */
+@media (min-width:469px) and (max-width:668px) {
+    .humburger{
+        display: block;
+        margin-right: 22vw;
+    }
+    #bar{
+        height: 4px;
+        width: 25px;
+        margin-top: 3.5px;
+        background-color: #5a5a5a;
+      
+    }
+    .nav h3{
+        font-family: Dancing script;
+         text-transform: uppercase;
+         font-size: 4vw;
+         color: #000;
+         font-weight: 800;
+      
+         
+      }
+      .elem a{
+        text-decoration: none;
+        font-size: 2.4vw;
+        position: absolute;
+        color: white;
+        cursor: pointer;
+       bottom: 25%;
+       text-transform: uppercase;
+       font-family: montserrat;
+       background-color: rgb(56, 42, 42);
+       transition: background-color .8s ease ;
+       padding: 1.5vw 3.2vw;
+       font-weight: 450;
+       border-radius: 20px;
+    }
+      .nav{
+        height: 100px;
+           width: 100%;
+           display: flex;
+           position: fixed;
+           align-items: center;
+           padding-left: 2.5vw;
+        
+       }
+      
+
+       .nav .ul-list ul{
+        display: flex;
+        height: 70vh;
+        position: absolute;
+        width: 60%;
+        top: 100%;
+        left: 100%;
+        transition: all ease-in-out .5s ;
+        background: linear-gradient(145deg, #cacaca, #f0f0f0);
+        box-shadow:  20px 20px 60px #5a5a5a, inset
+                     -20px -20px 60px #ffffff;
+       
+        flex-direction: column;
+        
+    }
+    .nav ul.active{
+    left: 30%;
+    }
+    ul #anth,#projects,#skills,#home{
+    
+        margin-left: 3vw;
+        list-style: none;
+        font-size: 3.3vw;
+        cursor: pointer;
+        padding: 10px 0px;
+        text-align: start;
+        margin-top:60px;
+        font-family: montserrat thin;
+        text-transform: uppercase;
+        color: #000;
+        font-weight: 900;
+    }
+    .image{
+        position: relative;
+        display: flex;
+        height: 70%;
+        
+    }
+    .image img{
+        border-radius: 50%;
+        height: 30%;
+        width: 28vw;
+        margin-top: 10vw;
+        margin-left: 130px;
+    }
+    #elem2 h1{
+        text-align: center;
+        font-size: 4.8vw;
+        font-weight: 900;
+        color: #ffffff;
+        margin-top: 120px;
+        font-family: Dancing script medium;
+    }
+    #elem2 span{
+        text-transform: uppercase;
+        font-family: montserrat regular;
+        font-size: 5vw;
+        -webkit-text-stroke: .5px  white;
+        color: transparent;
+    }
+    .page1 #elem2 {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        background-color: #000;
+        
+        
+        }
+        .page1{
+            position: relative;
+            height: 100%;
+            width: 78%;
+            display: flex;
+           
+            
+            
+        }
+        .page5 form{
+            height: 85%;
+            width: 65%;
+            z-index: 999;
+            
+            background: linear-gradient(145deg, #cacaca, #f0f0f0);
+             box-shadow:  20px 20px 60px #5a5a5a, inset;
+            transition: 1s ease all;
+           position: absolute;
+            
+        }
+        form input{
+            border-radius: 6px;
+            outline: none;
+            padding: 2vw 7vw;
+            border: none;
+            margin-top: 8vw;
+            width: 70%;
+            
+            margin-left: 2vw;
+        }
+        form label{
+            font-size: 4.8vw;
+            margin-left: 1vw;
+            font-family: dancing script ;
+            font-weight: 900;
+            
+        }
+        form #btn{
+            width: 30%;
+        padding: 1.5vw 1vw;
+            margin-left: 16.5vw;
+            background-color: black;
+            color: #fff;
+            font-size: 2vw;
+            border-radius: 3px;
+       
+            cursor: pointer;
+            
+            font-family: montserrat regular;
+        }
+        footer{
+            height: 100%;
+            width: 100%;
+            background-color: #122620;
+            display: flex;
+            position: relative;
+            flex-wrap: wrap;
+            margin-top: 5vw;
+            border: 3px solid #000000;
+            flex-direction: column;
+            align-items: center;
+
+            
+        }
+        footer .foot{
+            height: 50%;
+            width: 30%;
+            overflow: hidden;
+            margin-top: 50vw;
+          
+        
+        }
+        
+        .foot h1{
+            position: absolute;
+            bottom: 60%;
+            left: 2%;
+            font-size: 6vw;
+            color: #ffffff;
+            font-weight: 900;
+            text-transform: uppercase;
+            font-family: Dancing script;
+        }
+        .foot h2{
+            position: absolute;
+            bottom: 60%;
+            left: 34%;
+            color: #ffffff;
+            font-weight: 900;
+            font-size: 6vw;
+            text-transform: uppercase;
+            font-family: Dancing script;
+        }
+        .foot h3{
+            position: absolute;
+            bottom: 60%;
+            left: 70%;
+            color: #ffffff;
+            font-weight: 900;
+            font-size: 6vw;
+            text-transform: uppercase;
+            font-family: Dancing script;
+        }
+        footer #image1{
+            position: absolute;
+            left: 20%;
+            height: 30%;
+            bottom: 70%;
+            width: 35%;
+        
+        }
+        .foot p{
+            font-family: montserrat;
+            font-size: 3vw;
+          
+            margin-top: 1.3vw;
+            color: #ffffff;
+            font-weight: 100;
+            text-transform: uppercase;
+        }
+        footer i{
+            position: absolute;
+            left: 60%;
+            font-size: 7.7vw;
+            color: #fff;
+           
+            bottom: 67%;
+           
+        
+        }
+        .logo{
+            position: absolute;
+            bottom: 3%;
+            cursor: pointer;
+            left: 59%;
+            display: flex;
+            transition: 2s ease-in all;
+           
+        }
+        .logo #linkned{
+            height: 7vw;
+            width: 7vw;
+            border: 3px solid ;
+            }
+            .logo #twitter{
+                height: 7vw;
+            width: 7vw;
+            border: 3px solid ;
+            }
+            .logo #git{
+                height: 7vw;
+                width: 7vw;
+                border: 3px solid ;
+            }
+}
+
+/* tablet */
+@media (min-width:669px) and (max-width:768px) {
+    .nav h3{
+        font-family: Dancing script;
+         text-transform: uppercase;
+         font-size: 2.8vw;
+         color: #000;
+         font-weight: 800;
+      
+         
+      }
+      .nav{
+        height: 100px;
+           width: 100%;
+           display: flex;
+           position: fixed;
+           align-items: center;
+        
+       }
+       .elem a{
+        text-decoration: none;
+        font-size: 2.4vw;
+        position: absolute;
+        color: white;
+        cursor: pointer;
+       bottom: 15%;
+       text-transform: uppercase;
+       font-family: montserrat;
+       background-color: rgb(56, 42, 42);
+       transition: background-color .8s ease ;
+       padding: 1.5vw 3.2vw;
+       font-weight: 450;
+       border-radius: 20px;
+    }
+
+       .nav .ul-list ul{
+        display: flex;
+        height: 70vh;
+        position: absolute;
+        width: 60%;
+        top: 100%;
+        left: 100%;
+        transition: all ease-in-out .5s ;
+        background: linear-gradient(145deg, #cacaca, #f0f0f0);
+        box-shadow:  20px 20px 60px #5a5a5a, inset
+                     -20px -20px 60px #ffffff;
+       
+        flex-direction: column;
+        
+    }
+    ul #anth,#projects,#skills,#home{
+    
+        margin-left: 3vw;
+        list-style: none;
+        font-size: 5.3vw;
+        cursor: pointer;
+        padding: 10px 0px;
+        text-align: center;
+        margin-top:60px;
+        font-family: montserrat thin;
+        text-transform: uppercase;
+        color: #000;
+        font-weight: 900;
+    }
+    .nav ul.active{
+    left: 30%;
+    }
+   
+    .humburger{
+        display: block;
+        margin-right: 13vw;
+    }
+    #bar{
+        height: 4px;
+        width: 25px;
+        margin-top: 3.5px;
+        background-color: #5a5a5a;
+      
+    }
+    .image{
+        position: relative;
+        display: flex;
+        height: 70%;
+        
+    }
+    .image img{
+        border-radius: 50%;
+        height: 30%;
+        width: 35vw;
+        margin-top: 20vw;
+        margin-left: 200px;
+    }
+    img{
+        cursor: pointer;
+        height: 60%;
+        width: 14%;
+        }
+        footer{
+            height: 100%;
+            width: 100%;
+            background-color: #122620;
+            display: flex;
+            position: relative;
+            flex-wrap: wrap;
+            margin-top: 5vw;
+            border: 3px solid #000000;
+            
+            align-items: center;
+
+            
+        }
+        footer .foot{
+            height: 20%;
+            width: 30%;
+            margin-top: -45vw;
+          
+        
+        }
+        
+        .foot h1{
+            position: absolute;
+            bottom: 80%;
+            left: 2%;
+            font-size: 5vw;
+            color: #ffffff;
+            font-weight: 900;
+            text-transform: uppercase;
+            font-family: Dancing script;
+        }
+        .foot h2{
+            position: absolute;
+            bottom: 80%;
+            left: 34%;
+            color: #ffffff;
+            font-weight: 900;
+            font-size: 5vw;
+            text-transform: uppercase;
+            font-family: Dancing script;
+        }
+        .foot h3{
+            position: absolute;
+            bottom: 80%;
+            left: 64%;
+            color: #ffffff;
+            font-weight: 900;
+            font-size: 5vw;
+            text-transform: uppercase;
+            font-family: Dancing script;
+        }
+        footer #image1{
+            position: absolute;
+            left: 1%;
+            height: 10%;
+            bottom: 90%;
+        
+        }
+        .foot p{
+            font-family: montserrat;
+            font-size: 3.1vw;
+            
+            margin-top: 1.3vw;
+            color: #ffffff;
+            font-weight: 100;
+            text-transform: uppercase;
+        }
+        .logo{
+            position: absolute;
+            bottom: 5%;
+            cursor: pointer;
+            left: 63%;
+           
+            display: flex;
+            transition: 2s ease-in all;
+           
+        }
+        .logo #linkned{
+        height: 7vw;
+        width: 7vw;
+        border: 3px solid ;
+        }
+        .logo #twitter{
+            height: 7vw;
+        width: 7vw;
+        border: 3px solid ;
+        }
+        .logo #git{
+            height: 7vw;
+            width: 7vw;
+            border: 3px solid ;
+        }
+        footer i{
+            position: absolute;
+            left: 17%;
+            font-size: 3.7vw;
+            color: #fff;
+           
+            bottom: 76%;
+           
+        
+        }
+
+        footer #image1{
+            position: absolute;
+            left: 1%;
+            height: 10%;
+            bottom: 90%;
+        
+        }
+}
